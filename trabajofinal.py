@@ -1,12 +1,3 @@
-import subprocess
-import sys
-
-def install_packages():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "plotly==5.2.1"])
-
-# Instalar las dependencias
-install_packages()
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
