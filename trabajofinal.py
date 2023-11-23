@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import pip
+pip.main(["install", "plotly==5.2.1"])
 
 
 st.set_page_config(page_title="Centros de vacunacion") 
