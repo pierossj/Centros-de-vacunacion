@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+
 
 st.set_page_config(page_title="Centros de vacunacion") 
 st.header('Centros de Vacunación en el Perú del 2020-21') 
